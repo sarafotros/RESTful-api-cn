@@ -1,0 +1,31 @@
+{
+  "name": "RESTful-api-cn",
+  "version": "1.0.0",
+  "description": "Plant  subscription service - demo app- live coding",
+  "main": "server.js",
+  "scripts": {
+    "start": "node listen.js",
+    "dev": "nodemon listen.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarafotros/RESTful-api-cn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarafotros/RESTful-api-cn/issues"
+  },
+  "homepage": "https://github.com/sarafotros/RESTful-api-cn#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
