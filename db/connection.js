@@ -19,3 +19,5 @@ if(!db){
 }else {
     console.log('DB connected successfully!');
 }
+
+module.exports = mongoose
